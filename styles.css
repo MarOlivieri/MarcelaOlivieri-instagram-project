@@ -1,0 +1,49 @@
+*
+body {
+	background: grey;
+	margin: 0;
+}
+header {
+	background: grey;
+}
+h1{
+	float: center;
+	font-family: 'Courier New', Courier, monospace;
+    font-size: 20 px;
+	text-align: center;
+}
+.container {
+	width: 70%;
+	margin-top: 50xp;
+	margin-bottom: 50xp;
+	margin-left: auto;
+	margin-right: auto;
+}	
+.post {
+	border: black;
+	width:100%
+	display-flex;
+   	flex-direction:column;
+	background-color:white;
+	margin-top:40xp;
+	margin-left: auto;
+	margin-right: auto;
+}
+h2{
+	float: left;
+	margin: left 5xp;
+	margin-top: 3xp
+}
+.post-header {
+	display: flex;
+	justify-content:space-between;
+	align-items: center;
+}
+span {
+	color: grey;
+}
+img {
+	width: 100%;
+	display: block;
+}
+
