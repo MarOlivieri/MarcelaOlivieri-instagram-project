@@ -1,4 +1,7 @@
 *
+{
+    box-sizing: border-box; /* Añadido para incluir el espacio del borde y el relleno en el tamaño total del elemento */
+}
 body {
 	background: grey;
 	margin: 0;
@@ -7,32 +10,32 @@ header {
 	background: grey;
 }
 h1{
-	float: center;
-	font-family: 'Courier New', Courier, monospace;
-    font-size: 20 px;
 	text-align: center;
+	font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+	
 }
 .container {
 	width: 70%;
-	margin-top: 50xp;
-	margin-bottom: 50xp;
+	margin-top: 50px;
+	margin-bottom: 50px;
 	margin-left: auto;
 	margin-right: auto;
 }	
 .post {
-	border: black;
-	width:100%
-	display-flex;
-   	flex-direction:column;
+	border: 1px solid white;
+	width: 100%;
+	display:flex;
+   	flex-direction: column;
 	background-color:white;
-	margin-top:40xp;
+	margin-top:40px;
 	margin-left: auto;
 	margin-right: auto;
 }
 h2{
-	float: left;
-	margin: left 5xp;
-	margin-top: 3xp
+	text-align: left;
+	margin: left 5px;
+	margin-top: 3px
 }
 .post-header {
 	display: flex;
